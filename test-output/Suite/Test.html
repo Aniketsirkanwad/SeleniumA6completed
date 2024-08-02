@@ -1,0 +1,158 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 20 10:44:04 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>47 seconds (47197 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNg2.HelperMethod3.shoe3()'><b>shoe3</b><br>Test class: TestNg2.HelperMethod3<br/>
+<a href="#Output-889885902" onClick='toggleBox("Output-889885902", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-889885902" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-889885902">
+shoe3<br/>
+onTestSuccess<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>TestNg2.HelperMethod3@4b45a2f5</td></tr>
+<tr>
+<td title='TestNg2.HelperMethod2.shoe2()'><b>shoe2</b><br>Test class: TestNg2.HelperMethod2<br/>
+<a href="#Output-180489140" onClick='toggleBox("Output-180489140", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-180489140" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-180489140">
+shoe2<br/>
+onTestSuccess<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>TestNg2.HelperMethod2@f09733f</td></tr>
+<tr>
+<td title='TestNg2.HelperMethod1.shoe1()'><b>shoe1</b><br>Test class: TestNg2.HelperMethod1<br/>
+<a href="#Output-1821580597" onClick='toggleBox("Output-1821580597", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1821580597" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1821580597">
+shoe1<br/>
+onTestSuccess<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>TestNg2.HelperMethod1@e350b40</td></tr>
+<tr>
+<td title='TestNg1.HelperMethod2.bike2()'><b>bike2</b><br>Test class: TestNg1.HelperMethod2<br/>
+<a href="#Output-1795560878" onClick='toggleBox("Output-1795560878", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1795560878" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1795560878">
+bike2<br/>
+onTestSuccess<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>TestNg1.HelperMethod2@38cee291</td></tr>
+<tr>
+<td title='TestNg1.HelperMethod4.bike4()'><b>bike4</b><br>Test class: TestNg1.HelperMethod4<br/>
+<a href="#Output-2117043942" onClick='toggleBox("Output-2117043942", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2117043942" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2117043942">
+bike4<br/>
+onTestSuccess<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>TestNg1.HelperMethod4@5d534f5d</td></tr>
+<tr>
+<td title='TestNg1.HelperMethod3.bike3()'><b>bike3</b><br>Test class: TestNg1.HelperMethod3<br/>
+<a href="#Output-1722645488" onClick='toggleBox("Output-1722645488", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1722645488" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1722645488">
+bike3<br/>
+onTestSuccess<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>TestNg1.HelperMethod3@791f145a</td></tr>
+</table><p>
+</body>
+</html>
